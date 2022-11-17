@@ -13,8 +13,8 @@ RFID rfid(21, 5); //读卡器SS（SDA）引脚、读卡器RST引脚（未接）
 
 /*用户配置*/
 int userNumber = 7;                                                                                              //用户数
-char *userName[] = {"HL", "HLSH", "HLApple", "HXPhone", "HXSH", "LWY", "HYMPhone"};                              //用户姓名列表
-char *userUid[] = {"E07BC90CB", "1D236B7025", "141747B4F", "5778FD1F1", "0EFF2908D", "2099F390DA", "2D4835137"}; //用户卡号列表0EFF2908D
+char *userName[] = {"name1", "name2", "name3", "name4", "name5", "name6", "name7"};                              //用户姓名列表
+char *userUid[] = {"*********", "1D236B9025", "*********", "*********", "*********", "*********", "*********"}; //用户卡号列表
 
 /*
  *************************配置完毕*************************
