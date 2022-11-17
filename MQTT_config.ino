@@ -6,13 +6,13 @@
 #include <WiFi.h>         //ESP32下的WIFI库
 
 /*【参数配置】MQTT设置*/
-#define MQTT_SERVER "yellowblue.top" // MQTT服务器
+#define MQTT_SERVER "********" // MQTT服务器
 #define MQTT_SERVER_PORT 1883        // MQTT服务器端口
 
-#define MQTT_ID "414lock"           // ClientID
-#define MQTT_USER ""      //用户名
-#define MQTT_PSWD "414"   //密码
-#define MQTT_TOPIC "414lock" //订阅主题
+#define MQTT_ID ""********""           // ClientID
+#define MQTT_USER ""********""      //用户名
+#define MQTT_PSWD ""********""   //密码
+#define MQTT_TOPIC ""********"" //订阅主题
 
 extern WiFiClient Client_WIFI;
 PubSubClient Client_MQTT(Client_WIFI); // MQTT客户端对象（基于WIFI对象）
