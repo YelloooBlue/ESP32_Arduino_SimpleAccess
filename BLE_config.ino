@@ -9,8 +9,8 @@
 #include <BLEServer.h>
 
 /*【参数配置】UUID设置*/
-#define SERVICE_UUID "8928ea76-d9ff-4d4a-b422-b8f16c176bd5"
-#define CHARACTERISTIC_UUID "548a2099-1095-4391-957f-e95a452542cc"
+#define SERVICE_UUID "*********-d9ff-4d4a-b422-b8f16c176bd5"
+#define CHARACTERISTIC_UUID "*********-1095-4391-957f-e95a452542cc"
 #define CONNECT_TIMOUT 15000 //最长连接时间（防止一个设备一直占用）
 
 /*
