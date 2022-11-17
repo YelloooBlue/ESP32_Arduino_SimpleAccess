@@ -6,7 +6,7 @@
 
 
 //全局参数
-#define OPEN_KEY "414UnLoCk" //开锁密码
+#define OPEN_KEY "*********" //开锁密码
 
 
 //全局变量
